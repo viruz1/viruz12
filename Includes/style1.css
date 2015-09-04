@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin: 0;
+padding: 0;
+
+}
+
+#page, #page2,#page3,#page4{
+
+background:url(../Images/background.png) repeat;
+
+}
+.heading{
+	
+	display: none;
+}
+.logo{
+	
+	width:auto;
+	height: 216px;
+	background:  url(../Images/menu_home.jpg) top no-repeat;
+	margin:auto;
+}
+.redline{
+	width:100%;
+	height:18px;
+	background: #066;
+	margin:0;
+	padding :0;
+	
+}
+
+
+#page .mainmenu {
+
+
+margin : 5px ;
+padding: 0;
+
+}
+
+#page .mainmenu li{
+
+background : none;
+border:none;
+
+
+}
+
+#page .mainmenu li a{
+
+background : rgba (255,255,255,.6);
+display : block;
+border-radius:5px;
+margin-bottom:5px;
+}
+
+#page .mainmenu li a:hover{
+
+background : rgba (255,255,255,.9);
+display : block;
+}
+
+#page .footerBG ,#page2 .footerBG ,#page3 .footerBG, #page4 .footerBG ,#page5 .footerBG ,#page6 .footerBG ,#page7 .footerBG, #page8 .footerBG ,#page9 .footerBG,#page10 .footerBG,#page11 .footerBG ,#page12 .footerBG{
+	width:100%;
+	height:90px;
+	background: #066 ;
+	margin:0;
+	padding :0;
+	text-align :center;
+}
+#page2 .bodycopy{
+	
+background : rgba (255,255,255,.6);
+
+border-radius:5px;
+margin:0;
+	padding :0;
+	
+}
